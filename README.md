@@ -23,6 +23,8 @@ Kept simple.
 
 ### Setup
 
+This project is a __template__. When you clone this repository, change the name of directory. Use unique name for your app, otherwise containers will be listed in Docker under ```laravel-api-starter``` name which will be problematic when you will be using this template for another project.
+
 ```bash
 cp .env.example .env
 docker compose up -d
